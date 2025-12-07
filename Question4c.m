@@ -64,7 +64,7 @@ zlim([-0.015 0.015]);
 title('Q4(c) Drawing Letter I (Droplet Diameter ×10)');
 
 
-%% ----- Paper -----
+
 px = D;
 py = [-0.02 0.02 0.02 -0.02];
 pz = [-0.01 -0.01 0.01 0.01];
@@ -136,3 +136,4 @@ text(0.0005, 0.022, 0, ...
 
 fprintf("\nTotal draw time = %.3f ms\n", total_time*1000);
 disp("Q4(c) Simulation Complete!");
+
